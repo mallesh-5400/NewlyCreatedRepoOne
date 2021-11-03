@@ -1,4 +1,4 @@
-Struct Cookies {
+struct Cookies {
   int numberOfCookies: Int
   isItTastie: Bool
 }
