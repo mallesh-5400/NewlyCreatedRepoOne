@@ -1,8 +1,14 @@
+Struct Cookies {
+  int numberOfCookies: Int
+  isItTastie: Bool
+}
+
 protocol AddingNewFeatures {
   var cookieSize: Int{ get set}
   func addNewFeature()
   func removeNewFeature()
 }
+
 class CookieTaste: AddingNewFeatures {
   
   var cookie: Cookies?
@@ -16,5 +22,6 @@ class CookieTaste: AddingNewFeatures {
   func addNewFeatures() {
     cookieSize += cookie.numberOfCookies
 }
- 
+  
+End of the protocol branch 
  
