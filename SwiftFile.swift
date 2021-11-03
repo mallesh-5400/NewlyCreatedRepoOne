@@ -16,7 +16,16 @@ class CookieTaste: AddingNewFeatures {
     cookieSize += cookie.numberOfCookies
 }
 
-let cookieInstance = CookieTaste()
+let lasjlf = CookieTaste()
 print(cookieInstance.cookieQuantity())
 
+  class efg: AddingNewFeatures {
+  var cookie: Cookies?
+  func cookiesQuantity() {
+    cookie.numberOfCookies = 10
+    cookie.isItTastie = true
+  }
+  func addNewFeatures() {
+    cookieSize += cookie.numberOfCookies
+}
 
