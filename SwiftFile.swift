@@ -1,3 +1,6 @@
+protocol AddingNewFeatures {
+  func addNewFeature()
+  func removeNewFeature()
 Struct Cookies {
   int numberOfCookies: Int
   isItTastie: Bool
