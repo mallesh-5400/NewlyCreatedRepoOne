@@ -22,3 +22,7 @@ class CookieTaste: AddingNewFeatures {
   func addNewFeatures() {
     cookieSize += cookie.numberOfCookies
 }
+
+
+End of the protocol branch 
+ 
