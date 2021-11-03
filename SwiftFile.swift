@@ -10,4 +10,7 @@ class CookieTaste {
   }
 }
 
+let cookieInstance = CookieTaste()
+print(cookieInstance.cookieQuantity())
+
 
